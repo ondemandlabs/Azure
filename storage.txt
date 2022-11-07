@@ -1,0 +1,39 @@
+Azure storage
+-------------
+
+Blob ----> object storage
+
+File ----- _ Files shares for cloud and on-prem deployments
+
+Queues ----- > Will discuss in detail in messaging section
+
+Azure Blob storage
+------------------
+
+1) Object storage Blob -----> (Binary large objects)
+
+2) Great for files, videos, documents, large files etc.
+
+3) Up to 4.777 TB per file, 190 TB per preview
+
+4) Extremely cost effective
+
+5) Maasively scalable
+
+6) Great availability options
+
+7) Extremely easy to use
+
+8) usually used in conjection with SQL, MYSQL Database
+
+Security
+--------
+
+1) IP firewall rules
+2)Service End points
+3)private end points
+4) Shared access signature
+5)Access keys and Azure Active Directory Authentication
+6) Secure Communication
+7) Data encrypted by default
+
