@@ -37,3 +37,40 @@ Security
 6) Secure Communication
 7) Data encrypted by default
 
+
+Azure storage rdundant
+-------------------------
+
+1)LRS ----> Locally redundant storage
+2)ZRS ------> Zone redundant storage
+3)GRS -------> Geo redundant storage 
+
+Locally redundant storage
+-------------------------
+LRS replicates your storage account three times within a single data centre in the primary region. LRS provides at least 99.99999999%
+
+LRS protects your data against server rack and drive failure, LRs may be lost or uncoverabls if entire data centre fails
+
+If your application stores data that can be easily restricted to replicate data only within a country
+
+Zone-redundant storage
+------------------------
+Zone redundant storage replicates your storage account across three Azure availability zones in the primary region.
+
+Each availability zones is a separated physicall location with independent power. ZRS offers durability for storage resource of at least 99.99999999999% over a given year.
+
+With ZRS, your data is still accessible for both read and write operations even if a zone becomes unavilable
+
+Microsoft recommends using zrs in the primary region for scenarios that require high availability.
+
+
+GRS(Geo redundant storage)
+---------------------------
+Geo- redundant storage copies your data three times with a single physical location in the primary region using LRS, it then copies your data to physical location in a secondary region that is hundreds of miles away from the primary region
+
+GRS offers durability for storage resources of at least 99.999999999999%
+
+A write operation is first committed to the primary location and replicated using LRS
+ 
+GEO_Redundant storage combines high availability of your data and provided using the availability zones
+
