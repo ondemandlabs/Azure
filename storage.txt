@@ -74,3 +74,15 @@ A write operation is first committed to the primary location and replicated usin
  
 GEO_Redundant storage combines high availability of your data and provided using the availability zones
 
+About Blob Storage
+Blob Storage is designed for:
+
+1) Serving images or documents directly to a browser.
+2) Storing files for distributed access.
+3) Streaming video and audio.
+4) Writing to log files.
+5) Storing data for backup and restore, disaster recovery, and archiving.
+6) Storing data for analysis by an on-premises or Azure-hosted service.
+
+
+
