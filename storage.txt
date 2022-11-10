@@ -74,6 +74,22 @@ A write operation is first committed to the primary location and replicated usin
  
 GEO_Redundant storage combines high availability of your data and provided using the availability zones
 
+Things to consider when using Azure Storage
+-------------------------------------------:
+
+
+As you think about your configuration plan for Azure Storage, consider these prominent features.
+
+Consider durability and availability. Azure Storage is durable and highly available. Redundancy ensures your data is safe during transient hardware failures. You replicate data across datacenters or geographical regions for protection from local catastrophe or natural disaster. Data that's replicated remains highly available during an unexpected outage.
+
+Consider secure access. All data written to Azure Storage is encrypted by the service. Azure Storage provides you with fine-grained control over who has access to your data.
+
+Consider scalability. Azure Storage is designed to be massively scalable to meet the data storage and performance needs of modern applications.
+
+Consider manageability. Microsoft Azure handles hardware maintenance, updates, and critical issues for you.
+
+Consider data accessibility. Data in Azure Storage is accessible from anywhere in the world over HTTP or HTTPS. Microsoft provides SDKs for Azure Storage in various languages. You can use .NET, Java, Node.js, Python, PHP, Ruby, Go, and the REST API. Azure Storage supports scripting in Azure PowerShell or the Azure CLI. The Azure portal and Azure Storage Explorer offer easy visual solutions for working with your data.
+
 About Blob Storage
 Blob Storage is designed for:
 
@@ -83,6 +99,6 @@ Blob Storage is designed for:
 4) Writing to log files.
 5) Storing data for backup and restore, disaster recovery, and archiving.
 6) Storing data for analysis by an on-premises or Azure-hosted service.
-
+i
 
 
