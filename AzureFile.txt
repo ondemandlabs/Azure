@@ -25,4 +25,20 @@ Why Azure Files is useful
 
 5) Containerization
 
+Key-Benefits
+-------------
+
+1) Easy to use. When an Azure file share is mounted on your computer, you don't need to do anything special to access the data: just navigate to     the path where the file share is mounted and open/modify a file.
+
+2) Shared access. Azure file shares support the industry standard SMB and NFS protocols, meaning you can seamlessly replace your on-premises file    shares with Azure file shares without worrying about application compatibility. Being able to share a file system across multiple machines,     applications, and application instances is a significant advantage for applications that need shareability.
+
+3) Fully managed. Azure file shares can be created without the need to manage hardware or an OS. This means you don't have to deal with patching     the server OS with critical security upgrades or replacing faulty hard disks.
+
+4) Scripting and tooling. PowerShell cmdlets and Azure CLI can be used to create, mount, and manage Azure file shares as part of the      administration of Azure applications. You can create and manage Azure file shares using Azure portal and Azure Storage Explorer.
+
+5) Resiliency. Azure Files has been built from the ground up to be always available. Replacing on-premises file shares with Azure Files means you    no longer have to wake up to deal with local power outages or network issues.
+
+• Familiar programmability. Applications running in Azure can access data in the share via file
+
+
 
