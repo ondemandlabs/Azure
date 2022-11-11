@@ -1,0 +1,41 @@
+Azure File
+----------
+
+1) Azure Files offers fully managed file shares in the cloud that are accessible via the standard server message Block (SMB) protocol. 
+
+2) Azure file shares can be mounted concurrently by cloud or on-premises deployments.
+
+3) SMB Azure file shares are accessible from windows, Linux, Macos clients. 
+
+4) NFS Azure file shares are accessible from Linux or Macos clients. Additionally, SMB Azure file shares can be cached on windows servers with Azure file sync for fast access near where the data is being used 
+
+
+Why Azure Files is useful
+-------------------------
+
+1) Replace or supplement on-premises file servers
+
+2) "Lift and shift" Applications
+
+3) Simplify cloud developments
+  
+     A) Shared application settings
+     B) Diagnostic share
+     C) Dev/Testing/Debug
+
+5) Containerization
+
+Key benefits
+------------
+
+. Easy to use: When an Azure file share is mounted on your computer, you don't need to do anything special to access the data: just navigate to the path where the file share is mounted and open/modify a file.
+
+• Shared access: Azure file shares support the industry standard SMB and NFS protocols, meaning you can seamlessly replace your on-premises file   shares with Azure file shares without worrying about application compatibility. Being able to share a file system across multiple machines,   applications, and application instances is a significant advantage for applications that need shareability.
+
+• Fully managed: Azure file shares can be created without the need to manage hardware or an OS. This means you don't have to deal with patching   the server OS with critical security upgrades or replacing faulty hard disks.
+
+• Scripting and tooling: PowerShell cmdlets and Azure CLI can be used to create, mount, and manage Azure file shares as part of the   administration of Azure applications. You can create and manage Azure file shares using Azure portal and Azure Storage Explorer.
+
+• Resiliency: Azure Files has been built from the ground up to be always available. Replacing on-premises file shares with Azure Files means you   no longer have to wake up to deal with local power outages or network issues.
+
+• Familiar programmability. Applications running in Azure can access data in the share via file

@@ -99,6 +99,6 @@ Blob Storage is designed for:
 4) Writing to log files.
 5) Storing data for backup and restore, disaster recovery, and archiving.
 6) Storing data for analysis by an on-premises or Azure-hosted service.
-i
+
 
 
