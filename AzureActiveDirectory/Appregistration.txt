@@ -1,0 +1,39 @@
+App Registration
+----------------
+
+Purpose of app registration:
+---------------------------
+1) It is used to integrate the application and service with Azure AD.
+
+2) Using Azure App, we can generate the token to authenticate the application.
+
+3) If we want to use the Azure AD capabilities, we must register the app.
+
+4) After we register the app, we can get the “Client ID, Secret key”.
+
+
+Register an application
+-----------------------
+
+Registering your application establishes a trust relationship between your app and the Microsoft identity platform. 
+
+The trust is unidirectional: your app trusts the Microsoft identity platform, and not the other way around.
+
+Important
+----------
+New app registrations are hidden to users by default. When you are ready for users to see the app on their My Apps page you can enable it. To enable the app, in the Azure portal navigate to Azure Active Directory > Enterprise applications and select the app. Then on the Properties page toggle Visible to users? to Yes.
+
+Main steps in App Registration
+------------------------------
+
+1) Authentication
+
+2) Certificates & Secrets
+
+3) API Permissions
+
+4) Token configuration
+
+step by step of App Registration
+--------------------------------
+
